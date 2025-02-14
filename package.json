@@ -1,0 +1,18 @@
+{
+  "name": "@nuvexa/prettier-config",
+  "version": "1.0.0",
+  "description": "A reusable Prettier configuration to enforce consistent code formatting across JavaScript, TypeScript, and other file types. Easily extendable and customizable to suit any project, ensuring clean and maintainable code with minimal setup.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nuvexa/eslint-config": "^1.0.0"
+  }
+}
