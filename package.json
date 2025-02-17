@@ -12,7 +12,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "prettier": "3.5.1"
+  },
   "devDependencies": {
     "@nuvexa/eslint-config": "^1.0.0"
+  },
+  "peerDependencies": {
+    "prettier": "3.5.1"
   }
 }
